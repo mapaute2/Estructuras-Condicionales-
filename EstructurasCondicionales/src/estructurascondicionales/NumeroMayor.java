@@ -98,19 +98,16 @@ public class NumeroMayor {
         
         if (N1 > N3){
             if (N1 > N2){
-                Mayor = N1;
                 System.out.println(" El " +N1+ " es Mayor");
             }
         }
         if (N2 > N1){
             if (N2 > N3){
-                Mayor = N2;
                 System.out.println(" El " +N2+ " es Mayor");  
             }   
         }        
         if (N3 > N1){
             if (N3 > N2){
-                Mayor = N3;
                 System.out.println(" El " +N3+ " es Mayor");   
             }
         }
